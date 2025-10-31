@@ -1,39 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Punjabi Vibe Lyrics</title>
-
   <style>
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background-image: url('https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
+      background: linear-gradient(135deg, #111, #222);
       color: white;
       text-align: center;
     }
 
     .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      padding-top: 100px;
     }
 
     h1 {
-      font-size: 2.5em;
+      font-size: 2.2rem;
       margin-bottom: 20px;
     }
 
     input[type="text"] {
-      width: 80%;
       max-width: 400px;
       padding: 10px;
       border: none;
@@ -43,26 +32,46 @@
       text-align: center;
     }
 
+    .song {
+      margin-top: 50px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+    }
+
+    iframe {
+      border-radius: 10px;
+      max-width: 90%;
+    }
+
     .footer {
-      position: absolute;
-      bottom: 15px;
-      width: 100%;
+      margin-top: 40px;
       font-size: 14px;
-      opacity: 0.8;
+      opacity: 0.7;
     }
   </style>
 </head>
 <body>
   <div class="overlay">
     <h1>Punjabi Vibe Lyrics 🎶</h1>
-    <input type="text" placeholder="Search your favorite song
-<div class="song">
-    
-  <h2>🎥 Official Shorts Video</h2>
-  <iframe width="100%" height="300" 
-          src="https://www.youtube.com/embed/vr4LAPJF6V8"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-      </div>
+    <input type="text" placeholder="Search your favorite song">
+
+    <div class="song">
+      <h2>🎥 Official Shorts Video</h2>
+      <iframe width="100%" height="300"
+        src="https://www.youtube.com/embed/PUT_YOUR_VIDEO_ID_HERE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 Punjabi Vibe Lyrics | Created by Arshpreet Singh</p>
+    </div>
+  </div>
+</body>
+</html>
